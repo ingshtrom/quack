@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>QuAck!</title>
+    <script src="src/render/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/render/app.css">
+  </head>
+  <body>
+    <h1>QuAck!</h1>
+    <form onsubmit="return false;">
+        <div class="grouping">
+            <label>Repository Url:</label>
+            <input id="repository-url" type="text" placeholder="https://example.com/foo.git"/>
+        </div>
+        <div class="grouping">
+            <button id="submit-button">QUACK it up!</button>
+            <button id="save-settings">Save Settings</button>
+        </div>
+    </form>
+    <footer>
+        We are using node <script>document.write(process.versions.node)</script>,
+        Chrome <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.
+    </footer>
+  </body>
+</html>

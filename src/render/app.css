@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+}
+
+input {
+    width: 70%;
+}
+
+.grouping {
+    display: block;
+    margin: 15px;
+}
+
+footer {
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
